@@ -1,0 +1,188 @@
+/* Estilos generales */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: auto;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos del encabezado */
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+/* Estilos del banner */
+
+#banner {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Estilos de secciones */
+
+section {
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+/* Estilos del formulario de contacto */
+
+form {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #555;
+}
+
+/* ------- HERO ------- */
+.hero{
+  background-image: url(../css/hero-img.png);
+  height: 33rem;
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.hero-text{
+  width: fit-content;
+  text-align:left;
+  position: relative;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 20%;
+}
+.hero-text{
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: black;
+}
+.hero-text h1{
+  color: black;
+}
+.hero-text i{
+  color: black;
+}
+.hero a{
+  width: 20rem;
+  height: 3rem;
+  margin: 10px;
+  background-color: #5227cc;
+  border: 1px solid black;
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+footer{
+  text-align: center;
+}
+/* ------- CONTAINER ------- */
+.container{
+  padding: 2rem 5rem;
+}
+.content{
+  display: flex;
+  flex-direction: row;
+}
+
+.content > aside{
+  padding: 2rem;
+  background-color: #5227cc;
+  flex-basis: 60%;
+  text-align: center; color: black;
+}
+#principal li {
+   display:inline;
+   float:left;
+}
+#principal li {
+   display:inline;
+   float:left;
+   width:400px;
+   background-color:#f5f7f9;
+   padding:5px;
+   margin:2px;
+   text-align: center;
+   border-right: #a5a7aa solid 1px;
+   border-bottom: #a5a7aa solid 1px;
+}
+#principal h2{
+  /* height: 5rem; */
+  padding: 1rem 2rem;
+  border-left: solid 1px black;
+  border-top: solid 1px #5227cc;
+  border-radius: 1rem 0;
+}
+
+#nuestros-servicios h3{
+  text-align: center;
+}
+.principal p{
+  background-color: black;
+  color: white;
+  padding: 2rem;
+  border-radius: #5227cc;
+}
+#principal a{
+  width: 500px;
+}
+.galeria1{
+  display: flex;
+  gap: 1rem;
+}
